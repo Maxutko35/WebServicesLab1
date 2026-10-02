@@ -1,4 +1,9 @@
+using WebServicesLab1.Services;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+builder.Services.AddTransient<IEmailSender, EmailService>();
+
 builder.Services.AddControllersWithViews();
 var app = builder.Build();
 

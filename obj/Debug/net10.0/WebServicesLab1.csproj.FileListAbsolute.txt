@@ -111,3 +111,14 @@
 /Users/maksim/RiderProjects/WebServicesLab1/WebServicesLab1/obj/Debug/net10.0/compressed/1p9mxraifr-{0}-n9v07wobv4-n9v07wobv4.gz
 /Users/maksim/RiderProjects/WebServicesLab1/WebServicesLab1/obj/Debug/net10.0/compressed/ozfriei7ul-{0}-8hio1el0sq-8hio1el0sq.gz
 /Users/maksim/RiderProjects/WebServicesLab1/WebServicesLab1/bin/Debug/net10.0/libman.json
+/Users/maksim/RiderProjects/WebServicesLab1/WebServicesLab1/bin/Debug/net10.0/BouncyCastle.Cryptography.dll
+/Users/maksim/RiderProjects/WebServicesLab1/WebServicesLab1/bin/Debug/net10.0/MailKit.dll
+/Users/maksim/RiderProjects/WebServicesLab1/WebServicesLab1/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/maksim/RiderProjects/WebServicesLab1/WebServicesLab1/bin/Debug/net10.0/Microsoft.Extensions.Options.dll
+/Users/maksim/RiderProjects/WebServicesLab1/WebServicesLab1/bin/Debug/net10.0/Microsoft.Extensions.Primitives.dll
+/Users/maksim/RiderProjects/WebServicesLab1/WebServicesLab1/bin/Debug/net10.0/MimeKit.dll
+/Users/maksim/RiderProjects/WebServicesLab1/WebServicesLab1/bin/Debug/net10.0/WebServicesLab1.Services.dll
+/Users/maksim/RiderProjects/WebServicesLab1/WebServicesLab1/bin/Debug/net10.0/WebServicesLab1.Services.pdb
+/Users/maksim/RiderProjects/WebServicesLab1/WebServicesLab1/obj/Debug/net10.0/WebServicesLab1.csproj.AssemblyReference.cache
+/Users/maksim/RiderProjects/WebServicesLab1/WebServicesLab1/obj/Debug/net10.0/WebServicesLab1.sourcelink.json
+/Users/maksim/RiderProjects/WebServicesLab1/WebServicesLab1/obj/Debug/net10.0/WebServi.1FDFE519.Up2Date

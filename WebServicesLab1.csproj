@@ -21,4 +21,8 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\WebServicesLab1.Services\WebServicesLab1.Services.csproj" />
+    </ItemGroup>
+
 </Project>

@@ -1,24 +1,44 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using WebServicesLab1.Models;
+using WebServicesLab1.Services;
+using System.Threading.Tasks;
 
-namespace WebServicesLab1.Controllers;
-
-public class HomeController : Controller
+namespace WebServicesLab1.Controllers
 {
-    public IActionResult Index()
+    public class HomeController : Controller
     {
-        return View();
-    }
+        private readonly IEmailSender _emailSender;
+        
+        public HomeController(IEmailSender emailSender)
+        {
+            _emailSender = emailSender;
+        }
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
+        public IActionResult Index()
+        {
+            return View();
+        }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        public IActionResult About()
+        {
+            return View();
+        }
+        
+        public IActionResult Contacts()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SendMail(EmailFormModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                string subject = $"Нове повідомлення з сайту від {model.Name}";
+                await _emailSender.SendEmailAsync(model.Email, subject, model.Message);
+            }
+            
+            return RedirectToAction("Index"); 
+        }
     }
 }
