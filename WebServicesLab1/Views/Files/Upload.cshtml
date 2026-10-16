@@ -1,0 +1,18 @@
+@{
+    ViewData["Title"] = "Завантаження файлу";
+}
+
+<div class="container text-center mt-5">
+    <h2>Завантажити новий файл</h2>
+    
+    <form asp-controller="Files" asp-action="Upload" method="post" enctype="multipart/form-data" class="mt-4">
+        <div class="form-group">
+            <input type="file" name="uploadedFile" class="form-control-file d-inline-block" required />
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Завантажити на сервер</button>
+    </form>
+    
+    <div class="mt-3">
+        <a asp-controller="Files" asp-action="Index" class="btn btn-outline-secondary">Перейти до списку файлів</a>
+    </div>
+</div>
