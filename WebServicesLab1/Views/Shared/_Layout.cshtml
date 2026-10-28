@@ -69,17 +69,7 @@
                     </ul>
                   </div>
                   <div class="rd-navbar-main">
-                    <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item"><a class="rd-nav-link" asp-controller="Home" asp-action="Index">@Loc["Home"]</a></li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" asp-controller="Home" asp-action="About">@Loc["About"]</a></li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" asp-controller="Home" asp-action="Typography">@Loc["Typography"]</a></li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" asp-controller="Home" asp-action="Contacts">@Loc["Contacts"]</a></li>
-                      <li class="rd-nav-item">
-                        <div style="display: inline-block; padding: 15px 10px;">
-                          <partial name="_SelectLanguagePartial" />
-                        </div>
-                      </li>
-                    </ul>
+                    @await Component.InvokeAsync("Navbar")
                   </div>
                 </div>
               </div>
