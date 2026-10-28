@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="About" xml:space="preserve">
+        <value>About</value>
+    </data>
+    <data name="Contacts" xml:space="preserve">
+        <value>Contacts</value>
+    </data>
+    <data name="Menu" xml:space="preserve">
+        <value>Menu</value>
+    </data>
+    <data name="Pizzas" xml:space="preserve">
+        <value>Pizzas</value>
+    </data>
+    <data name="Salads" xml:space="preserve">
+        <value>Salads</value>
+    </data>
+    <data name="Burgers" xml:space="preserve">
+        <value>Burgers</value>
+    </data>
+    <data name="Drinks" xml:space="preserve">
+        <value>Drinks</value>
+    </data>
+    <data name="Send" xml:space="preserve">
+        <value>Send message</value>
+    </data>
+    <data name="Home" xml:space="preserve">
+        <value>Home</value>
+    </data>
+    <data name="offer" xml:space="preserve">
+        <value>What we offer</value>
+    </data>
+    <data name="Information" xml:space="preserve">
+        <value>Information</value>
+    </data>
+    <data name="News" xml:space="preserve">
+        <value>Latest news</value>
+    </data>
+    <data name="Typography" xml:space="preserve">
+        <value>Typography</value>
+    </data>
+    <data name="Newsletter" xml:space="preserve">
+        <value>Newsletter</value>
+    </data>
+    <data name="SingUp" xml:space="preserve">
+        <value>Sign up today for the latest news and updates</value>
+    </data>
+    <data name="Email" xml:space="preserve">
+        <value>Enter your email</value>
+    </data>
+    <data name="Subscribe" xml:space="preserve">
+        <value>Subscribe</value>
+    </data>
+    <data name="PerfectPizza" xml:space="preserve">
+        <value>Perfect Pizza</value>
+    </data>
+    <data name="Block1.1" xml:space="preserve">
+        <value>Experience the taste of a perfect pizza at PizzaHouse, one of the best restaurants!</value>
+    </data>
+    <data name="Quality" xml:space="preserve">
+        <value>Quality ingredients</value>
+    </data>
+    <data name="Block1.2" xml:space="preserve">
+        <value>We use only the best ingredients to make one-of-a-kind pizzas for our customers.</value>
+    </data>
+    <data name="ViewMenu" xml:space="preserve">
+        <value>View our menu</value>
+    </data>
+    <data name="OurMenu" xml:space="preserve">
+        <value>Our menu</value>
+    </data>
+    <data name="Desserts" xml:space="preserve">
+        <value>Desserts</value>
+    </data>
+    <data name="Seafood" xml:space="preserve">
+        <value>Seafood</value>
+    </data>
+    <data name="Atmosphere" xml:space="preserve">
+        <value>Best atmosphere</value>
+    </data>
+    <data name="Block2.1" xml:space="preserve">
+        <value>PizzaHouse is the place of the best pizza and high-quality service.</value>
+    </data>
+    <data name="SelectedPizzas" xml:space="preserve">
+        <value>Selected Pizzas</value>
+    </data>
+    <data name="Margherita" xml:space="preserve">
+        <value>Margherita pizza</value>
+    </data>
+    <data name="Cart" xml:space="preserve">
+        <value>Add to cart</value>
+    </data>
+    <data name="ViewProduct" xml:space="preserve">
+        <value>View product</value>
+    </data>
+    <data name="Mushroom" xml:space="preserve">
+        <value>Mushroom Pizza</value>
+    </data>
+    <data name="Hawaiian" xml:space="preserve">
+        <value>Hawaiian pizza</value>
+    </data>
+    <data name="Pesto" xml:space="preserve">
+        <value>Pesto Pizza</value>
+    </data>
+    <data name="-30%" xml:space="preserve">
+        <value>-30% on all salads &amp; drinks</value>
+    </data>
+    <data name="WhatSay" xml:space="preserve">
+        <value>What People Say</value>
+    </data>
+    <data name="Say1" xml:space="preserve">
+        <value>PizzaHouse is the longest lasting pizza place in the city and is well run and staffed. Prices are great and allow me to keep coming back.</value>
+    </data>
+    <data name="Ashley Fitzgerald" xml:space="preserve">
+        <value>Ashley Fitzgerald</value>
+    </data>
+    <data name="Client" xml:space="preserve">
+        <value>Client</value>
+    </data>
+    <data name="Say2" xml:space="preserve">
+        <value>I am a real pizza addict, and even when I’m home I prefer your pizzas to all others. They taste awesome and are very affordable.</value>
+    </data>
+    <data name="Stephanie Williams" xml:space="preserve">
+        <value>Stephanie Williams</value>
+    </data>
+    <data name="Say3" xml:space="preserve">
+        <value>PizzaHouse has amazing pizza. Not only do you get served with a great attitude, you also get delicious pizza at a great price!</value>
+    </data>
+    <data name="Bill Johnson" xml:space="preserve">
+        <value>Bill Johnson</value>
+    </data>
+    <data name="Say4" xml:space="preserve">
+        <value>PizzaHouse has great pizza. Not only do you get served with a great attitude and delivered delicious pizza, you get a great price.</value>
+    </data>
+    <data name="Aaron Wilson" xml:space="preserve">
+        <value>Aaron Wilson</value>
+    </data>
+    <data name="Best Ingredients" xml:space="preserve">
+        <value>Best Ingredients</value>
+    </data>
+    <data name="Tasty Pizza" xml:space="preserve">
+        <value>Tasty Pizza</value>
+    </data>
+    <data name="Comfortable interior" xml:space="preserve">
+        <value>Comfortable interior</value>
+    </data>
+    <data name="Modern Design" xml:space="preserve">
+        <value>Modern Design</value>
+    </data>
+    <data name="quality Dishware" xml:space="preserve">
+        <value>quality Dishware</value>
+    </data>
+    <data name="Top-notch utensils" xml:space="preserve">
+        <value>Top-notch utensils</value>
+    </data>
+    <data name="Refreshing cocktails" xml:space="preserve">
+        <value>Refreshing cocktails</value>
+    </data>
+    <data name="Exclusive selection" xml:space="preserve">
+        <value>Exclusive selection</value>
+    </data>
+    <data name="Exotic Salads" xml:space="preserve">
+        <value>Exotic Salads</value>
+    </data>
+    <data name="Summer Taste" xml:space="preserve">
+        <value>Summer Taste</value>
+    </data>
+    <data name="All Types of pizza" xml:space="preserve">
+        <value>All Types of pizza</value>
+    </data>
+    <data name="Special Recipes" xml:space="preserve">
+        <value>Special Recipes</value>
+    </data>
+    <data name="Diverse menu" xml:space="preserve">
+        <value>Diverse menu</value>
+    </data>
+    <data name="Pick Your Favorite dish" xml:space="preserve">
+        <value>Pick Your Favorite dish</value>
+    </data>
+    <data name="Book your Table" xml:space="preserve">
+        <value>Book your Table</value>
+    </data>
+    <data name="Your Name*" xml:space="preserve">
+        <value>Your Name*</value>
+    </data>
+    <data name="Your E-mail*" xml:space="preserve">
+        <value>Your E-mail*</value>
+    </data>
+    <data name="Select a Service" xml:space="preserve">
+        <value>Select a Service</value>
+    </data>
+    <data name="Dine-In" xml:space="preserve">
+        <value>Dine-In</value>
+    </data>
+    <data name="Carry-Out" xml:space="preserve">
+        <value>Carry-Out</value>
+    </data>
+    <data name="Event Catering" xml:space="preserve">
+        <value>Event Catering</value>
+    </data>
+    <data name="Message" xml:space="preserve">
+        <value>Message</value>
+    </data>
+    <data name="Reserve" xml:space="preserve">
+        <value>Please reserve your table at least 1 day in advance.</value>
+    </data>
+    <data name="Free Delivery" xml:space="preserve">
+        <value>Free Delivery</value>
+    </data>
+    <data name="order more 3" xml:space="preserve">
+        <value>If you order more than 3 pizzas, we will gladly deliver them to you for free.</value>
+    </data>
+    <data name="Convenient Location" xml:space="preserve">
+        <value>Convenient Location</value>
+    </data>
+    <data name="Our Pizzeria" xml:space="preserve">
+        <value>Our pizzeria is situated in the downtown and is very easy to reach even on weekends.</value>
+    </data>
+    <data name="Free Wi-Fi" xml:space="preserve">
+        <value>Free Wi-Fi</value>
+    </data>
+    <data name="Free Wi-Fi2" xml:space="preserve">
+        <value>We have free Wi-Fi available to all clients and visitors of our pizzeria.</value>
+    </data>
+    <data name="Best Service" xml:space="preserve">
+        <value>Best Service</value>
+    </data>
+    <data name="Clients is our priority" xml:space="preserve">
+        <value>The client is our #1 priority as we deliver top-notch customer service.</value>
+    </data>
+    <data name="ViewServices" xml:space="preserve">
+        <value>View our services</value>
+    </data>
+    <data name="BenFounder" xml:space="preserve">
+        <value>Ben Smith, Founder</value>
+    </data>
+    <data name="TasteSalads" xml:space="preserve">
+        <value>Taste some of the best PizzaHouse salads!</value>
+    </data>
+    <data name="ContactUs" xml:space="preserve">
+        <value>Contact us</value>
+    </data>
+</root>

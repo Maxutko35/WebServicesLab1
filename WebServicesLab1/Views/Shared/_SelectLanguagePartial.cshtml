@@ -1,0 +1,20 @@
+﻿@using Microsoft.AspNetCore.Builder
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.Extensions.Options
+
+@inject IOptions<RequestLocalizationOptions> LocOptions
+
+@{
+    var reqCulture = Context.Features.Get<IRequestCultureFeature>();
+    var currentCulture = reqCulture?.RequestCulture.UICulture.Name ?? "uk";
+    var returnUrl = string.IsNullOrEmpty(Context.Request.Path) ? "~/" : $"~{Context.Request.Path.Value}{Context.Request.QueryString}";
+}
+
+<div class="language-switcher" style="display: flex; gap: 8px; align-items: center;">
+    <form asp-controller="Home" asp-action="SetLanguage" asp-route-returnUrl="@returnUrl" method="post" id="langForm">
+        <input type="hidden" name="culture" id="cultureInput" />
+        <button type="submit" onclick="document.getElementById('cultureInput').value='uk';" style="background: none; border: none; cursor: pointer; font-weight: @(currentCulture == "uk" ? "bold" : "normal"); color: @(currentCulture == "uk" ? "#ff4e00" : "#333");">UA</button>
+        <span>|</span>
+        <button type="submit" onclick="document.getElementById('cultureInput').value='en';" style="background: none; border: none; cursor: pointer; font-weight: @(currentCulture == "en" ? "bold" : "normal"); color: @(currentCulture == "en" ? "#ff4e00" : "#333");">EN</button>
+    </form>
+</div>

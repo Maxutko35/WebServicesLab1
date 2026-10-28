@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Home" xml:space="preserve">
+        <value>Головна</value>
+    </data>
+    <data name="About" xml:space="preserve">
+        <value>Про нас</value>
+    </data>
+    <data name="Contacts" xml:space="preserve">
+        <value>Контакти</value>
+    </data>
+    <data name="Menu" xml:space="preserve">
+        <value>Меню</value>
+    </data>
+    <data name="Pizzas" xml:space="preserve">
+        <value>Піци</value>
+    </data>
+    <data name="Salads" xml:space="preserve">
+        <value>Салати</value>
+    </data>
+    <data name="Burgers" xml:space="preserve">
+        <value>Бургери</value>
+    </data>
+    <data name="Drinks" xml:space="preserve">
+        <value>Напої</value>
+    </data>
+    <data name="Send" xml:space="preserve">
+        <value>Надіслати повідомлення</value>
+    </data>
+    <data name="offer" xml:space="preserve">
+        <value>Що ми пропонуємо</value>
+    </data>
+    <data name="Information" xml:space="preserve">
+        <value>Інформація</value>
+    </data>
+    <data name="News" xml:space="preserve">
+        <value>Останні новини</value>
+    </data>
+    <data name="Typography" xml:space="preserve">
+        <value>Типографія</value>
+    </data>
+    <data name="Newsletter" xml:space="preserve">
+        <value>Розсилка</value>
+    </data>
+    <data name="SingUp" xml:space="preserve">
+        <value>Підпишіться на останні новини та оновлення</value>
+    </data>
+    <data name="Email" xml:space="preserve">
+        <value>Введіть ваш email</value>
+    </data>
+    <data name="Subscribe" xml:space="preserve">
+        <value>Підписатись</value>
+    </data>
+    <data name="PerfectPizza" xml:space="preserve">
+        <value>Неперевершена піцца</value>
+    </data>
+    <data name="Block1.1" xml:space="preserve">
+        <value>Відчуйте смак ідеальної піци в PizzaHouse — одному з найкращих ресторанів!</value>
+    </data>
+    <data name="Quality" xml:space="preserve">
+        <value>Якісні інгредієнти</value>
+    </data>
+    <data name="Block1.2" xml:space="preserve">
+        <value>Ми використовуємо лише найкращі інгредієнти, щоб створювати для наших клієнтів унікальні піци.</value>
+    </data>
+    <data name="ViewMenu" xml:space="preserve">
+        <value>Перегляньте наше меню</value>
+    </data>
+    <data name="OurMenu" xml:space="preserve">
+        <value>Наше меню</value>
+    </data>
+    <data name="Desserts" xml:space="preserve">
+        <value>Десерти</value>
+    </data>
+    <data name="Atmosphere" xml:space="preserve">
+        <value>Найкраща атмосфера</value>
+    </data>
+    <data name="Block2.1" xml:space="preserve">
+        <value>PizzaHouse — це місце, де пропонують найкращу піцу та високоякісний сервіс.</value>
+    </data>
+    <data name="SelectedPizzas" xml:space="preserve">
+        <value>Обрані піци</value>
+    </data>
+    <data name="Margherita" xml:space="preserve">
+        <value>Піцца маргарита</value>
+    </data>
+    <data name="Cart" xml:space="preserve">
+        <value>Додати в кошик</value>
+    </data>
+    <data name="ViewProduct" xml:space="preserve">
+        <value>Переглянути товар</value>
+    </data>
+    <data name="Mushroom" xml:space="preserve">
+        <value>Піцца грибна</value>
+    </data>
+    <data name="Hawaiian" xml:space="preserve">
+        <value>Піцца гавайська</value>
+    </data>
+    <data name="Pesto" xml:space="preserve">
+        <value>Піцца песто</value>
+    </data>
+    <data name="-30%" xml:space="preserve">
+        <value>-30% на всі салати та напої</value>
+    </data>
+    <data name="WhatSay" xml:space="preserve">
+        <value>Що кажуть люди</value>
+    </data>
+    <data name="Say1" xml:space="preserve">
+        <value>PizzaHouse — це піцерія, що працює в місті найдовше; заклад добре організований, а персонал працює якісно. Ціни тут чудові, завдяки чому я повертаюся сюди знову й знову.</value>
+    </data>
+    <data name="Seafood" xml:space="preserve">
+        <value>Морепродукти</value>
+    </data>
+    <data name="Ashley Fitzgerald" xml:space="preserve">
+        <value>Ешлі Фіцджеральд</value>
+    </data>
+    <data name="Client" xml:space="preserve">
+        <value>Клієнт</value>
+    </data>
+    <data name="Say2" xml:space="preserve">
+        <value>Я справжній фанат піци, і навіть удома віддаю перевагу саме вашій піці — вона смакує чудово, а ціна дуже доступна.</value>
+    </data>
+    <data name="Stephanie Williams" xml:space="preserve">
+        <value>Стефані Вільямс</value>
+    </data>
+    <data name="Say3" xml:space="preserve">
+        <value>У PizzaHouse — чудова піца. Вас не лише привітно обслужать, а й запропонують смачну піцу за вигідною ціною!</value>
+    </data>
+    <data name="Bill Johnson" xml:space="preserve">
+        <value>Білл Джонсон</value>
+    </data>
+    <data name="Say4" xml:space="preserve">
+        <value>У PizzaHouse чудова піца. Вас не лише обслуговують із чудовим ставленням і доставляють смачну піцу — ви також отримуєте її за вигідною ціною.</value>
+    </data>
+    <data name="Aaron Wilson" xml:space="preserve">
+        <value>Аарон Вілсон</value>
+    </data>
+    <data name="Best Ingredients" xml:space="preserve">
+        <value>Найкращі інгредієнти</value>
+    </data>
+    <data name="Tasty Pizza" xml:space="preserve">
+        <value>Смачна піца</value>
+    </data>
+    <data name="Comfortable interior" xml:space="preserve">
+        <value>Зручний інтер'єр</value>
+    </data>
+    <data name="Modern Design" xml:space="preserve">
+        <value>Сучасний дизайн</value>
+    </data>
+    <data name="quality Dishware" xml:space="preserve">
+        <value>Якісний посуд</value>
+    </data>
+    <data name="Top-notch utensils" xml:space="preserve">
+        <value>Першокласне кухонне приладдя</value>
+    </data>
+    <data name="Refreshing cocktails" xml:space="preserve">
+        <value>Освіжаючі коктейлі</value>
+    </data>
+    <data name="Exclusive selection" xml:space="preserve">
+        <value>Ексклюзивна добірка</value>
+    </data>
+    <data name="Exotic Salads" xml:space="preserve">
+        <value>Екзотичні салати</value>
+    </data>
+    <data name="Summer Taste" xml:space="preserve">
+        <value>Смак літа</value>
+    </data>
+    <data name="All Types of pizza" xml:space="preserve">
+        <value>Усі види піци</value>
+    </data>
+    <data name="Special Recipes" xml:space="preserve">
+        <value>Особливі рецепти</value>
+    </data>
+    <data name="Diverse menu" xml:space="preserve">
+        <value>Різноманітне меню</value>
+    </data>
+    <data name="Pick Your Favorite dish" xml:space="preserve">
+        <value>Оберіть свою улюблену страву</value>
+    </data>
+    <data name="Book your Table" xml:space="preserve">
+        <value>Забронюйте столик</value>
+    </data>
+    <data name="Your Name*" xml:space="preserve">
+        <value>Ваше ім’я*</value>
+    </data>
+    <data name="Your E-mail*" xml:space="preserve">
+        <value>Ваш email*</value>
+    </data>
+    <data name="Select a Service" xml:space="preserve">
+        <value>Виберіть послугу</value>
+    </data>
+    <data name="Dine-In" xml:space="preserve">
+        <value>Обід у закладі</value>
+    </data>
+    <data name="Carry-Out" xml:space="preserve">
+        <value>На винос</value>
+    </data>
+    <data name="Event Catering" xml:space="preserve">
+        <value>Кейтеринг для заходів</value>
+    </data>
+    <data name="Message" xml:space="preserve">
+        <value>Повідомлення</value>
+    </data>
+    <data name="Reserve" xml:space="preserve">
+        <value>Будь ласка, забронюйте столик щонайменше за 1 день.</value>
+    </data>
+    <data name="Free Delivery" xml:space="preserve">
+        <value>Безкоштовна доставка</value>
+    </data>
+    <data name="order more 3" xml:space="preserve">
+        <value>Якщо ви замовите більше 3 піц, ми з радістю доставимо їх вам безкоштовно.</value>
+    </data>
+    <data name="Convenient Location" xml:space="preserve">
+        <value>Зручне розташування</value>
+    </data>
+    <data name="Our Pizzeria" xml:space="preserve">
+        <value>Наша піцерія розташована в центрі міста, і до неї дуже легко дістатися навіть у вихідні.</value>
+    </data>
+    <data name="Free Wi-Fi" xml:space="preserve">
+        <value>Безкоштовний Wi-FI</value>
+    </data>
+    <data name="Free Wi-Fi2" xml:space="preserve">
+        <value>У нашій піцерії для всіх клієнтів і відвідувачів доступний безкоштовний Wi-Fi.</value>
+    </data>
+    <data name="Best Service" xml:space="preserve">
+        <value>Найкращий сервіс</value>
+    </data>
+    <data name="Clients is our priority" xml:space="preserve">
+        <value>Клієнт — наш головний пріоритет, адже ми надаємо першокласний клієнтський сервіс.</value>
+    </data>
+    <data name="ViewServices" xml:space="preserve">
+        <value>Перегляньте наші послуги</value>
+    </data>
+    <data name="BenFounder" xml:space="preserve">
+        <value>Бен Сміт, засновник</value>
+    </data>
+    <data name="TasteSalads" xml:space="preserve">
+        <value>Спробуйте одні з найкращих салатів у PizzaHouse!</value>
+    </data>
+    <data name="ContactUs" xml:space="preserve">
+        <value>Зв'яжіться з нами</value>
+    </data>
+</root>
