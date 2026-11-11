@@ -458,9 +458,9 @@ namespace WebServicesLab1.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Що ми пропонуємо.
         /// </summary>
-        internal static string offer {
+        internal static string Offer {
             get {
-                return ResourceManager.GetString("offer", resourceCulture);
+                return ResourceManager.GetString("Offer", resourceCulture);
             }
         }
         
@@ -492,7 +492,7 @@ namespace WebServicesLab1.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Неперевершена піцца.
+        ///   Looks up a localized string similar to Смачна піцца.
         /// </summary>
         internal static string PerfectPizza {
             get {

@@ -45,9 +45,6 @@
     <data name="Send" xml:space="preserve">
         <value>Надіслати повідомлення</value>
     </data>
-    <data name="offer" xml:space="preserve">
-        <value>Що ми пропонуємо</value>
-    </data>
     <data name="Information" xml:space="preserve">
         <value>Інформація</value>
     </data>
@@ -70,7 +67,7 @@
         <value>Підписатись</value>
     </data>
     <data name="PerfectPizza" xml:space="preserve">
-        <value>Неперевершена піцца</value>
+        <value>Смачна піцца</value>
     </data>
     <data name="Block1.1" xml:space="preserve">
         <value>Відчуйте смак ідеальної піци в PizzaHouse — одному з найкращих ресторанів!</value>
@@ -257,5 +254,8 @@
     </data>
     <data name="ContactUs" xml:space="preserve">
         <value>Зв'яжіться з нами</value>
+    </data>
+    <data name="Offer" xml:space="preserve">
+        <value>Що ми пропонуємо</value>
     </data>
 </root>
