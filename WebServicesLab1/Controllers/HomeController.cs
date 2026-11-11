@@ -13,7 +13,7 @@ namespace WebServicesLab1.Controllers
     {
         private readonly IEmailSender _emailSender;
         private readonly ILogger<HomeController> _logger;
-        
+
         public HomeController(IEmailSender emailSender, ILogger<HomeController> logger)
         {
             _emailSender = emailSender;
@@ -29,7 +29,7 @@ namespace WebServicesLab1.Controllers
         {
             return View();
         }
-        
+
         public IActionResult Contacts()
         {
             return View();
@@ -42,10 +42,11 @@ namespace WebServicesLab1.Controllers
             {
                 string subject = $"Нове повідомлення з сайту від {model.Name}";
                 await _emailSender.SendEmailAsync(model.Email, subject, model.Message);
-                _logger.LogInformation("ПОДІЯ: Успішно відправлено лист на адресу {Email} від клієнта {Name}", model.Email, model.Name);
+                _logger.LogInformation("ПОДІЯ: Успішно відправлено лист на адресу {Email} від клієнта {Name}",
+                    model.Email, model.Name);
             }
-            
-            return RedirectToAction("Index"); 
+
+            return RedirectToAction("Index");
         }
 
         [HttpPost]
@@ -58,6 +59,23 @@ namespace WebServicesLab1.Controllers
             );
 
             return LocalRedirect(returnUrl ?? "/");
+        }
+
+        [HttpGet]
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Register(ClientRegistrationModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                return Content($"Реєстрація успішна! Вітаємо, {model.FirstName} {model.LastName}");
+            }
+
+            return View(model);
         }
     }
 }

@@ -1,0 +1,100 @@
+﻿@model WebServicesLab1.Models.ClientRegistrationModel
+
+@{
+    ViewData["Title"] = "Реєстрація клієнта";
+}
+
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+            <!-- Картка-контейнер для форми з вирівнюванням тексту ліворуч -->
+            <div class="card shadow border-0" style="background-color: #fcfcfc; padding: 40px; border-radius: 12px; text-align: left;">
+                <h2 class="text-center mb-4" style="font-weight: 700; color: #222;">@ViewData["Title"]</h2>
+
+                <form asp-action="Register" asp-controller="Home" method="post">
+                    <div class="validation text-danger mb-4" asp-validation-summary="ModelOnly"></div>
+
+                    <!-- Група 1: Ім'я та Прізвище (2 колонки) -->
+                    <div class="row">
+                        <div class="col-md-6 form-group mb-3">
+                            <label asp-for="FirstName" style="font-weight: 600;">Ім'я</label>
+                            <input asp-for="FirstName" class="form-control" placeholder="Введіть ім'я" />
+                            <span asp-validation-for="FirstName" class="text-danger" style="font-size: 0.85em;"></span>
+                        </div>
+                        <div class="col-md-6 form-group mb-3">
+                            <label asp-for="LastName" style="font-weight: 600;">Прізвище</label>
+                            <input asp-for="LastName" class="form-control" placeholder="Введіть прізвище" />
+                            <span asp-validation-for="LastName" class="text-danger" style="font-size: 0.85em;"></span>
+                        </div>
+                    </div>
+
+                    <!-- Група 2: Email (На всю ширину картки) -->
+                    <div class="form-group mb-3">
+                        <label asp-for="Email" style="font-weight: 600;">Email</label>
+                        <input asp-for="Email" class="form-control" placeholder="example@mail.com" />
+                        <span asp-validation-for="Email" class="text-danger" style="font-size: 0.85em;"></span>
+                    </div>
+
+                    <!-- Група 3: Телефон та Вік (2 колонки) -->
+                    <div class="row">
+                        <div class="col-md-6 form-group mb-3">
+                            <label asp-for="PhoneNumber" style="font-weight: 600;">Телефон</label>
+                            <input asp-for="PhoneNumber" class="form-control" placeholder="+380..." />
+                            <span asp-validation-for="PhoneNumber" class="text-danger" style="font-size: 0.85em;"></span>
+                        </div>
+                        <div class="col-md-6 form-group mb-3">
+                            <label asp-for="Age" style="font-weight: 600;">Вік</label>
+                            <input asp-for="Age" class="form-control" placeholder="Наприклад, 18" />
+                            <span asp-validation-for="Age" class="text-danger" style="font-size: 0.85em;"></span>
+                        </div>
+                    </div>
+
+                    <!-- Група 4: Дата народження та Адреса (2 колонки) -->
+                    <div class="row">
+                        <div class="col-md-6 form-group mb-3">
+                            <label asp-for="DateOfBirth" style="font-weight: 600;">Дата народження (необов'язково)</label>
+                            <input asp-for="DateOfBirth" type="date" class="form-control" />
+                            <span asp-validation-for="DateOfBirth" class="text-danger" style="font-size: 0.85em;"></span>
+                        </div>
+                        <div class="col-md-6 form-group mb-3">
+                            <label asp-for="Address" style="font-weight: 600;">Адреса (необов'язково)</label>
+                            <input asp-for="Address" class="form-control" placeholder="Місто, вулиця..." />
+                            <span asp-validation-for="Address" class="text-danger" style="font-size: 0.85em;"></span>
+                        </div>
+                    </div>
+
+                    <!-- Група 5: Паролі (2 колонки) -->
+                    <div class="row">
+                        <div class="col-md-6 form-group mb-3">
+                            <label asp-for="Password" style="font-weight: 600;">Пароль</label>
+                            <input asp-for="Password" type="password" class="form-control" placeholder="••••••••" />
+                            <span asp-validation-for="Password" class="text-danger" style="font-size: 0.85em;"></span>
+                        </div>
+                        <div class="col-md-6 form-group mb-4">
+                            <label asp-for="ConfirmPassword" style="font-weight: 600;">Підтвердження паролю</label>
+                            <input asp-for="ConfirmPassword" type="password" class="form-control" placeholder="••••••••" />
+                            <span asp-validation-for="ConfirmPassword" class="text-danger" style="font-size: 0.85em;"></span>
+                        </div>
+                    </div>
+
+                    <!-- Чекбокс та кнопка (По центру всередині вирівняної картки) -->
+                    <div class="d-flex flex-column align-items-center mt-3">
+                        <div class="form-check mb-1">
+                            <input asp-for="AgreeToTerms" type="checkbox" class="form-check-input" style="width: 1.2em; height: 1.2em; margin-top: 0.2em;" />
+                            <label asp-for="AgreeToTerms" class="form-check-label" style="font-weight: 600; margin-left: 8px;">Я погоджуюсь з умовами</label>
+                        </div>
+                        <span asp-validation-for="AgreeToTerms" class="text-danger mb-4" style="font-size: 0.85em;"></span>
+
+                        <button type="submit" class="btn px-5 py-2" style="background-color: #ff4e00; color: white; font-weight: 700; border-radius: 30px; font-size: 1.1em; letter-spacing: 1px; transition: 0.3s;">
+                            ЗАРЕЄСТРУВАТИСЯ
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
